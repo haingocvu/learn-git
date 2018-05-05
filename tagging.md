@@ -24,3 +24,6 @@
 
 <code><-- push all tags to server (ex: servername is origin) --></code><br>
 <strong>$ git push --tags</strong></br>
+
+<code><-- checking out tag as new branch (git checkout -b [branchname] [tagname])--></code><br>
+<strong>$ git checkout -b version1.0 v1.0</strong></br>
