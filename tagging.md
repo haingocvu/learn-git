@@ -27,3 +27,12 @@
 
 <code><-- checking out tag as new branch (git checkout -b [branchname] [tagname])--></code><br>
 <strong>$ git checkout -b version1.0 v1.0</strong></br>
+
+<code><-- deleting a tag on local --></code><br>
+<strong>$ git tag -d v1.1</strong></br>
+
+<code><-- listing tags on remote --></code><br>
+<strong>$ git ls-remote --tags</strong></br>
+
+<code><-- deleting a tag on remote (ex: remote name: origin, tag name: v1.1)--></code><br>
+<strong>$ git push origin --delete v1.1</strong></br>
