@@ -18,3 +18,9 @@
 
 <code><-- tagging a specific commit (ex: commit id = 815e6954e2d65d8006675fcfeb579aaf8b1ae1c7) --></code><br>
 <strong>$ git tag -a v0.1 815e6954e2d65d8006675fcfeb579aaf8b1ae1c7 -m "release v0.1. first tag"</strong></br>
+
+<code><-- push a single tag to server (ex: servername is origin, tag name is v0.1) --></code><br>
+<strong>$ git push origin v0.1</strong></br>
+
+<code><-- push all tags to server (ex: servername is origin) --></code><br>
+<strong>$ git push --tags</strong></br>
