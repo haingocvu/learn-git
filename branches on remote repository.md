@@ -7,3 +7,6 @@
 <code><-- checking out a remote branch --></code><br>
 <strong>$ git fetch</strong></br>
 <strong>$ git checkout remotebranchname</strong></br>
+
+<code><-- deleting a remote branch --></code><br>
+<strong>$ git push origin --delete branchname</strong></br>
