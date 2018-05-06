@@ -9,6 +9,11 @@
 
 <code><-- config merge tool editor --></code><br>
 <strong>$ git config --global merge.tool diffmerge</strong></br>
+<strong>$ git config --global mergetool.diffmerge.cmd "sgdm --merge --result=\$MERGED \$LOCAL \$BASE \$REMOTE"</strong></br>
+<strong>$ git config --global mergetool.diffmerge.trustExitCode true</strong></br>
+<strong>$ git config --global mergetool.keepBackup false</strong></br>
+<strong>$ git config --global diff.tool diffmerge</strong></br>
+<strong>$ git config --global difftool.diffmerge.cmd "sgdm \$LOCAL \$REMOTE"</strong></br>
 
 <code><-- list available merge tools --></code><br>
 <strong>$ git config --global merge.tool</strong></br>
