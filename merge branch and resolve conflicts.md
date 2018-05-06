@@ -17,3 +17,9 @@
 
 <code><-- list available merge tools --></code><br>
 <strong>$ git config --global merge.tool</strong></br>
+
+<code><-- merging 2 branchs can lead to conflict. we need to open diffmerge to resolve it by below command --></code><br>
+<strong>$ git mergetool</strong></br>
+
+<code><-- after merging, we confirm by save and exit diffmerge. then, we must to use commit to complete the merging --></code><br>
+<strong>$ git commit -m "resolve conflicts"</strong></br>
